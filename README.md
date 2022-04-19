@@ -2,8 +2,8 @@
 A simple Unit Converter Which Converts From Feet To Centi Meters, Meters, Kilo Meters, Miles, Yards and Inches
 # What Did I Learned
 <ul>
-  <li>How to apply onchange=""</li>
-  <li>How to apply oninput=""</li>
+  <li>How to apply <code>onchange=""</code></li>
+  <li>How to apply <code>oninput=""</code></li>
   <li>DOM Manipulation</li>
   <li>How to Convert Feet Into Centi Meters</li>
   <li>How to Convert Feet Into Meters</li>
