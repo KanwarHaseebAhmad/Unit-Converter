@@ -268,6 +268,175 @@
             </div>
             <hr>
         </section>
+        
+        <section id="miles" class="tab-pane fade">
+            <div class="container mb-3">
+                <h3>Mile To Centi Meters</h3>
+                <p>
+                    <label for="inputMile" class="form-label">Mile</label>
+                    <input id="inputMile" class="form-control border-success" type="number" placeholder="Mile"
+                        oninput="mileToCentiMeters(this.value)" onchange="mileToCentiMeters(this.value)">
+                </p>
+                <div class="mb-3">
+                    <label for="outputCentiMeters" class="form-label">cm:</label>
+                    <p id="outputMileToCentiMeters"></p>
+                </div>
+                <hr>
+                <h3>Mile To Meters</h3>
+                <p>
+                    <label for="inputMile" class="form-label">Mile</label>
+                    <input id="inputMile" class="form-control border-success" type="number" placeholder="Mile"
+                        oninput="mileToMeters(this.value)" onchange="mileToMeters(this.value)">
+                </p>
+                <p>M: <span id="outputMileToMeters"></span></p>
+                <hr>
+                <h3>Mile To Inches</h3>
+                <p>
+                    <label for="inputMile" class="form-label">Mile</label>
+                    <input id="inputMile" class="form-control border-success" type="number" placeholder="Mile"
+                        oninput="mileToInches(this.value)" onchange="mileToInches(this.value)">
+                </p>
+                <p>Inches: <span id="outputMileToInches"></span></p>
+                <hr>
+                <h3>Mile To Yards</h3>
+                <p>
+                    <label for="inputMile" class="form-label">Mile</label>
+                    <input id="inputMile" class="form-control border-success" type="number" placeholder="Mile"
+                        oninput="mileToYards(this.value)" onchange="mileToYards(this.value)">
+                </p>
+                <p>Yards: <span id="outputMileToYards"></span></p>
+                <hr>
+                <h3>Mile To Kilo Meters</h3>
+                <p>
+                    <label for="inputMile" class="form-label">Mile</label>
+                    <input id="inputMile" class="form-control border-success" type="number" placeholder="Mile"
+                        oninput="mileToKiloMeters(this.value)" onchange="mileToKiloMeters(this.value)">
+                </p>
+                <p>Kilo Meters: <span id="outputMileToKiloMeters"></span></p>
+                <hr>
+                <h3>Mile To Foot</h3>
+                <p>
+                    <label for="inputMile" class="form-label">Mile</label>
+                    <input id="inputMile" class="form-control border-success" type="number" placeholder="Mile"
+                        oninput="mileToFoot(this.value)" onchange="mileToFoot(this.value)">
+                </p>
+                <p>Miles: <span id="outputMileToFoot"></span></p>
+            </div>
+            <hr>
+        </section>
+
+        <section id="inch" class="tab-pane fade">
+            <div class="container mb-3">
+                <h3>Inches To Centi Meters</h3>
+                <p>
+                    <label for="inputInches" class="form-label">Inches</label>
+                    <input id="inputInches" class="form-control border-success" type="number" placeholder="Inches"
+                        oninput="iToCentiMeters(this.value)" onchange="iToCentiMeters(this.value)">
+                </p>
+                <div class="mb-3">
+                    <label for="outputCentiMeters" class="form-label">cm:</label>
+                    <p id="outputIToCentiMeters"></p>
+                </div>
+                <hr>
+                <h3>Inches To Meters</h3>
+                <p>
+                    <label for="inputInches" class="form-label">Inches</label>
+                    <input id="inputInches" class="form-control border-success" type="number" placeholder="Inches"
+                        oninput="iToMeters(this.value)" onchange="iToMeters(this.value)">
+                </p>
+                <p>M: <span id="outputIToMeters"></span></p>
+                <hr>
+                <h3>Inches To Foot</h3>
+                <p>
+                    <label for="inputInches" class="form-label">Foot</label>
+                    <input id="inputInches" class="form-control border-success" type="number" placeholder="Inches"
+                        oninput="iToFoot(this.value)" onchange="iToFoot(this.value)">
+                </p>
+                <p>Inches: <span id="outputIToFoot"></span></p>
+                <hr>
+                <h3>Inches To Yards</h3>
+                <p>
+                    <label for="inputInches" class="form-label">Inches</label>
+                    <input id="inputInches" class="form-control border-success" type="number" placeholder="Inches"
+                        oninput="iToYards(this.value)" onchange="iToYards(this.value)">
+                </p>
+                <p>Yards: <span id="outputIToYards"></span></p>
+                <hr>
+                <h3>Inches To Kilo Meters</h3>
+                <p>
+                    <label for="inputInches" class="form-label">Inches</label>
+                    <input id="inputInches" class="form-control border-success" type="number" placeholder="Inches"
+                        oninput="iToKiloMeters(this.value)" onchange="iToKiloMeters(this.value)">
+                </p>
+                <p>Kilo Meters: <span id="outputIToKiloMeters"></span></p>
+                <hr>
+                <h3>Feet To Miles</h3>
+                <p>
+                    <label for="inputInches" class="form-label">Inches</label>
+                    <input id="inputInches" class="form-control border-success" type="number" placeholder="Inches"
+                        oninput="iToMiles(this.value)" onchange="iToMiles(this.value)">
+                </p>
+                <p>Miles: <span id="outputIToMiles"></span></p>
+            </div>
+            <hr>
+        </section>
+
+        <section id="centimeter" class="tab-pane fade">
+            <div class="container mb-3">
+                <h3>Centi Meters To Foot</h3>
+                <p>
+                    <label for="inputCentiMeters" class="form-label">Centi Meters</label>
+                    <input id="inputCentiMeters" class="form-control border-success" type="number"
+                        placeholder="Centi Meters" oninput="cmToFoot(this.value)" onchange="cmToFoot(this.value)">
+                </p>
+                <div class="mb-3">
+                    <label for="outputCentiMeters" class="form-label">cm:</label>
+                    <p id="outputCMToFoot"></p>
+                </div>
+                <hr>
+                <h3>Centi Meters To Meters</h3>
+                <p>
+                    <label for="inputCentiMeters" class="form-label">Centi Meters</label>
+                    <input id="inputCentiMeters" class="form-control border-success" type="number"
+                        placeholder="Centi Meters" oninput="cmToMeters(this.value)" onchange="cmToMeters(this.value)">
+                </p>
+                <p>M: <span id="outputCMToMeters"></span></p>
+                <hr>
+                <h3>Centi Meters To Inches</h3>
+                <p>
+                    <label for="inputCentiMeters" class="form-label">Centi Meters</label>
+                    <input id="inputCentiMeters" class="form-control border-success" type="number"
+                        placeholder="Centi Meters" oninput="cmToInches(this.value)" onchange="cmToInches(this.value)">
+                </p>
+                <p>Inches: <span id="outputCMToInches"></span></p>
+                <hr>
+                <h3>Centi Meters To Yards</h3>
+                <p>
+                    <label for="inputCentiMeters" class="form-label">Centi Meters</label>
+                    <input id="inputCentiMeters" class="form-control border-success" type="number"
+                        placeholder="Centi Meters" oninput="cmToYards(this.value)" onchange="cmToYards(this.value)">
+                </p>
+                <p>Yards: <span id="outputCMToYards"></span></p>
+                <hr>
+                <h3>Centi Meters To Kilo Meters</h3>
+                <p>
+                    <label for="inputCentiMeters" class="form-label">Centi Meters</label>
+                    <input id="inputCentiMeters" class="form-control border-success" type="number"
+                        placeholder="Centi Meters" oninput="cmToKiloMeters(this.value)"
+                        onchange="cmToKiloMeters(this.value)">
+                </p>
+                <p>Kilo Meters: <span id="outputCMToKiloMeters"></span></p>
+                <hr>
+                <h3>Centi Meters To Miles</h3>
+                <p>
+                    <label for="inputCentiMeters" class="form-label">Centi Meters</label>
+                    <input id="inputCentiMeters" class="form-control border-success" type="number"
+                        placeholder="Centi Meters" oninput="cmToMiles(this.value)" onchange="cmToMiles(this.value)">
+                </p>
+                <p>Miles: <span id="outputCMToMiles"></span></p>
+            </div>
+            <hr>
+        </section>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
