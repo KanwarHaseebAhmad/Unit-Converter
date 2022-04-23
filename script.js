@@ -55,3 +55,41 @@ function mToKiloMeters(valNum) {
 function mToMiles(valNum) {
     document.getElementById("outputMToMiles").innerHTML = valNum / 1609;
 }
+// Inches
+function iToCentiMeters(valNum) {
+    document.getElementById("outputIToCentiMeters").innerHTML = valNum * 2.54;
+}
+function iToMeters(valNum) {
+    document.getElementById("outputIToMeters").innerHTML = valNum / 39.37;
+}
+function iToFoot(valNum) {
+    document.getElementById("outputIToFoot").innerHTML = valNum / 12;
+}
+function iToYards(valNum) {
+    document.getElementById("outputIToYards").innerHTML = valNum / 36;
+}
+function iToKiloMeters(valNum) {
+    document.getElementById("outputIToKiloMeters").innerHTML = valNum / 39370;
+}
+function iToMiles(valNum) {
+    document.getElementById("outputIToMiles").innerHTML = valNum / 63360;
+}
+// Yards
+function yToCentiMeters(valNum) {
+    document.getElementById("outputYToCentiMeters").innerHTML = valNum * 91.44;
+}
+function yToMeters(valNum) {
+    document.getElementById("outputYToMeters").innerHTML = valNum / 1.094;
+}
+function yToInches(valNum) {
+    document.getElementById("outputYToInches").innerHTML = valNum * 36;
+}
+function yToFoot(valNum) {
+    document.getElementById("outputYToFoot").innerHTML = valNum * 3;
+}
+function yToKiloMeters(valNum) {
+    document.getElementById("outputYToKiloMeters").innerHTML = valNum / 1094;
+}
+function yToMiles(valNum) {
+    document.getElementById("outputYToMiles").innerHTML = valNum / 1760;
+}
