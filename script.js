@@ -93,3 +93,52 @@ function yToKiloMeters(valNum) {
 function yToMiles(valNum) {
     document.getElementById("outputYToMiles").innerHTML = valNum / 1760;
 }
+// KiloMeters
+function kmToCentiMeters(valNum) {
+    document.getElementById("outputKMToCentiMeters").innerHTML = valNum * 100000;
+}
+function kmToMeters(valNum) {
+    document.getElementById("outputKMToMeters").innerHTML = valNum * 1000;
+}
+function kmToInches(valNum) {
+    document.getElementById("outputKMToInches").innerHTML = valNum * 39370;
+}
+function kmToYards(valNum) {
+    document.getElementById("outputKMToYards").innerHTML = valNum * 1094;
+}
+function kmToFoot(valNum) {
+    document.getElementById("outputKMToFoot").innerHTML = valNum * 3281;
+}
+function kmToMiles(valNum) {
+    document.getElementById("outputKMToMiles").innerHTML = valNum * 1.609;
+}
+// Miles
+function mileToCentiMeters(valNum) {
+    document.getElementById("outputMileToCentiMeters").innerHTML = valNum * 160934;
+}
+function mileToMeters(valNum) {
+    document.getElementById("outputMileToMeters").innerHTML = valNum * 1609;
+}
+function mileToInches(valNum) {
+    document.getElementById("outputMileToInches").innerHTML = valNum * 63360;
+}
+function mileToYards(valNum) {
+    document.getElementById("outputMileToYards").innerHTML = valNum * 1760;
+}
+function mileToKiloMeters(valNum) {
+    document.getElementById("outputMileToKiloMeters").innerHTML = valNum * 1.609;
+}
+function mileToFoot(valNum) {
+    document.getElementById("outputMileToFoot").innerHTML = valNum * 5280;
+}
+//
+
+var triggerTabList = [].slice.call(document.querySelectorAll('#myTab a'))
+triggerTabList.forEach(function (triggerEl) {
+    var tabTrigger = new bootstrap.Tab(triggerEl)
+
+    triggerEl.addEventListener('click', function (event) {
+        event.preventDefault()
+        tabTrigger.show()
+    })
+})
