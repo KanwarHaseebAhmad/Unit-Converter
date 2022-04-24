@@ -23,6 +23,12 @@ A simple Unit Converter Which Converts From Feet To Centi Meters, Meters, Kilo M
   <li>How to Convert Centi Meters Into Yards</li>
   <li>How to Convert Centi Meters Into Inches</li>
   <li>How to Convert Centi Meters Into Miles</li>
+  <li>How to Convert Kilo Meters Into Centi Meters</li>
+  <li>How to Convert Kilo Meters Into Foot</li>
+  <li>How to Convert Kilo Meters Into Meters</li>
+  <li>How to Convert Kilo Meters Into Yards</li>
+  <li>How to Convert Kilo Meters Into Inches</li>
+  <li>How to Convert Kilo Meters Into Miles</li>
  </ul>
  
 # What Did I Used
